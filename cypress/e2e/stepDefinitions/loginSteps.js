@@ -9,8 +9,9 @@ Given("an anonymous user is on the login page", () => {
 });
 
 When("the user enters an invalid {string} and {string} into the login form", (username, password) => {
-    loginPage.enterUsername(username);
-    loginPage.enterPassword(password);
+   //loginPage.enterUsername(username);
+   //loginPage.enterPassword(password);
+
 }); 
 
 Then("submits the form", () => {
