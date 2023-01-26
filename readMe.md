@@ -1,4 +1,4 @@
-# Equitime 
+# Shell
 QA Assignment solution
 
 **Install Setup* 
