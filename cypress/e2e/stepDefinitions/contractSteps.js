@@ -11,11 +11,11 @@ Given("the user is on the home page", () => {
 })
 
 When("enters the details and submits", () => {
-    contractPage.enterContractfields();
+    contractPage.enterContractFieldsAndSubmit();
 }) 
 
 Then("Variable Contract View is displayed", () => {
     cy.wait(5000);
-    contractPageDetails.contractDetails();
+    contractPageDetails.inContractView();
 })
 

@@ -5,7 +5,7 @@ class ContractPage {
         cy.get('[id$="_evidon-banner-acceptbutton"]').click({force:true});
     }
 
-    enterContractfields(){
+    enterContractFieldsAndSubmit(){
         cy.get('[id$=postalCode]').type('3543GR');
         cy.get('[id$=houseNumber]').type(87);
         cy.get('[id$=electricityOnPeak]').type(120);

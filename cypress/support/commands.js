@@ -23,25 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-//describe('login', function(){
-/*     import 'cypress-iframe';
-  it('Login', function(){
-    
-        cy.visit('https://www.shellenergy.nl');
-        cy.wait(10000);
-        //cy.get('[id$=_evidon_banner]').contains('Cookies accepteren').click({force: true})
-        cy.iframe('#my-frame')
-      .get('[id$=id="_evidon-banner-acceptbutton"]')
-      .click()
-      cy.get('#sp_message_iframe_658470').its('0.contentDocument.body').find('button[title="Accept cookies"]').click();
-    }) */
-   
-/*     describe('Test Suite', function(){
-
-        it('Test Demo', function(){
-        
-            cy.visit('https://www.shellenergy.nl')
-        
-            cy.get('[id$="_evidon-banner-acceptbutton"]').click()
-        
-        })}) */
