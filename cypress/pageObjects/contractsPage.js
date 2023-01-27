@@ -1,9 +1,10 @@
 class ContractPage {
-    homePage() {
+    gotoHomePage() {
         cy.visit(Cypress.config('appUrl'));
         cy.wait(500);
-        cy.get('[id$="_evidon-banner-acceptbutton"]').click();
+        cy.get('[id$="_evidon-banner-acceptbutton"]').click({force:true});
     }
+
     enterContractfields(){
         cy.get('[id$=postalCode]').type('3543GR');
         cy.get('[id$=houseNumber]').type(87);

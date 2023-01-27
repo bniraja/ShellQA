@@ -7,7 +7,7 @@ const contractPage = new ContractPage();
 const contractPageDetails = new ContractDetailsPage();
 
 Given("the user is on the home page", () => {
-    contractPage.homePage();
+    contractPage.gotoHomePage();
 })
 
 When("enters the details and submits", () => {

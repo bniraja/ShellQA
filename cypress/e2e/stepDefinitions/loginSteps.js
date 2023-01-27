@@ -4,14 +4,13 @@ import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 const loginPage = new LoginPage();
 
-Given("an anonymous user is on the login page", () => {
+Then("the user click on Mijn account link", () => {
     loginPage.clickonMyAccount();
 });
 
 When("the user enters an invalid {string} and {string} into the login form", (username, password) => {
-   //loginPage.enterUsername(username);
-   //loginPage.enterPassword(password);
-
+   loginPage.enterUsername(username);
+   loginPage.enterPassword(password);
 }); 
 
 Then("submits the form", () => {
@@ -19,6 +18,6 @@ Then("submits the form", () => {
 });
 
 Then("an error message is displayed", () => {
-    loginPage.errorMessage().isTrue();
+    loginPage.errorMessageDisplayed();
 });
 

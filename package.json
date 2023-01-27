@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cypress-get-table": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
@@ -10,6 +11,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/xpath": "^2.0.3",
     "cypress": "^12.4.0",
     "cypress-iframe": "^1.0.1",
     "cypress-multi-reporters": "^1.6.2",
